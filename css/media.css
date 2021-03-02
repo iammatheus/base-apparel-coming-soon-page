@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1024px){
+   section > h1 {
+      font-size: 6.0rem;
+   }
+   form input[type="email"]{
+      width: 100%;
+   }
+   form button{
+      width: 20%;
+      left: 80%;
+   }
+   .padd{ 
+      padding: 50px 80px;
+   }
+   form img.icon-error {
+      left: 70%;
+   }
+}
+
+
+@media only screen and (max-width: 768px){
+   body{
+      background-image: none;
+   }
+   .padd{ padding: 30px; }
+   main{
+      grid-template-rows: 13vh 40vh 47vh;
+      grid-template-areas: "cima cima" "meio meio" "baixo baixo";
+   }
+   header{
+      grid-area: cima;
+   }
+   section{
+      grid-area: baixo;
+      padding: 50px;
+      margin-top: 50px;
+      text-align: center;
+   }
+   section h1 > span {
+      width: 100%;
+   }
+   section > p {
+      max-width: 100%;
+   }
+   aside{
+      grid-area: meio;
+      background-image: url('../images/hero-mobile.jpg');
+      background-position: left top;
+   }
+   form {
+      text-align: left;
+      padding-bottom: 50px;
+   }
+   form input[type="email"]{
+      width: 98%;
+   }
+   form button{
+      width: 15%;
+      left: 85%;
+   }
+   form img.icon-error {
+      left: 78%;
+   }
+}
+
+
+@media only screen and (max-width: 480px){
+   header img {
+      width: 120px;
+   }
+   section h1 {
+      font-size: 5.0rem;
+   }
+   form button{
+      width: 20%;
+      left: 80%;
+   }
+   form img.icon-error {
+      left: 68%;
+   }
+}
+
+
+@media only screen and (max-width: 375px){
+   section h1 {
+      font-size: 4.0rem;
+   }
+   .padd{ padding: 30px 15px;}
+   form button{
+      width: 25%;
+      left: 75%;
+   }
+   form img.icon-error {
+      left: 62%;
+   }
+}

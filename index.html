@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Matheus Ferreira">
+   <meta name="description" content="challenge base apparel coming soon from Frontend Mentor">
+   <meta name="keywords" content="frontend, apparel, style, design, webdesign">
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+   <link rel="icon" href="images/favicon-32x32.png">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/form.css">
+   <link rel="stylesheet" href="css/media.css">
+   <title>Challenge Base Apparel Coming Soon | Frontend Mentor</title>
+</head>
+<body>
+   <main>
+      <header class="padd">
+         <img src="images/logo.svg" alt="">
+      </header>
+
+      <aside></aside>
+
+      <section class="padd">
+         <h1 class="weight-300">WE'RE<span class="weight-600">COMING SOON</span></h1>
+         <p>Hello follow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+         <form name="form">
+            <div class="email-container">
+               <img src="images/icon-error.svg" class="icon-error" id="icon" alt="">
+               <input type="email" name="email" id="email" placeholder="Email Address" required>
+               <button type="submit" name="send" id="send" onclick="sendEmail(form.email.value)"></button>
+            </div>
+            <p class="msg-error" id="msg-error">Please provide a valid email</p>
+         </form>
+      </section>
+   </main>
+   <script src="js/script.js"></script>
+</body>
+</html>

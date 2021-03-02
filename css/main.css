@@ -1,0 +1,71 @@
+/* general reset */
+:root{
+   font-size: 62.5%;
+   --gradient-red: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+   --gradient-white: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+   --desaturated-red: hsl(0, 36%, 70%);
+   --soft-red: hsl(0, 93%, 68%);
+   --dark-grayish-red: hsl(0, 6%, 24%);
+}
+*, 
+body, 
+html{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+}
+body{
+   font-size: 1.6rem;
+   font-weight: 400;
+   background: url('../images/bg-pattern-desktop.svg'), var(--gradient-white);
+   background-repeat: no-repeat;
+   background-size: 65vw 100vh;
+}
+
+/* class */
+.padd{ padding: 50px 120px; }
+.marg-top{ margin-top: 25px; }
+.weight-300{ font-weight: 300; }
+.weight-400{ font-weight: 400; }
+.weight-600{ font-weight: 600; }
+
+/* main */
+main{
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+   grid-template-rows: 15vh 70vh 15vh;
+   grid-template-areas: "cima lado" "meio lado" "meio lado";
+}
+header{
+   grid-area: cima;
+   align-self: center;
+}
+section{
+   grid-area: meio;
+}
+section > h1 {
+   letter-spacing: 10px;
+   font-size: 8.0rem;
+   color: var(--desaturated-red);
+}
+section h1 > span{
+   display: block;
+   width: 250px;
+   color: var(--dark-grayish-red);
+}
+section > p {
+   max-width: 430px;
+   line-height: 25px;
+   margin-top: 25px;
+   color: var(--desaturated-red);
+}
+
+/* aside */
+aside{
+   grid-area: lado;
+   background-image: url('../images/hero-desktop.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}

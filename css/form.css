@@ -1,0 +1,51 @@
+form input[type="email"].error{
+   border: 2px solid var(--soft-red);
+}
+form{
+   margin-top: 35px;
+}
+form > .email-container {
+   position: relative;
+}
+form input[type="email"]{
+   width: 50%;
+   height: 50px;
+   padding-left: 30px;
+   border-radius: 50px;
+   border: 1px solid hsl(0, 32%, 76%);
+   background: var(--gradient-white);
+   outline: none;    
+}
+form input[type="email"]::placeholder{
+   color: hsl(0, 32%, 76%);
+}
+form button{
+   position: absolute;
+   left: 40%;
+   top: 0px;
+   width: 10%;
+   height: 50px;
+   border-radius: 50px;
+   border: none;
+   background: url('../images/icon-arrow.svg') no-repeat center center, var(--gradient-red);
+   box-shadow: 0px 15px 30px -7px var(--desaturated-red);
+   outline: none;
+}
+form button:hover{
+   background: url('../images/icon-arrow.svg') no-repeat center center, #ffcccc;
+   cursor: pointer;
+   transition: .5s;
+}
+
+form img.icon-error{
+   position: absolute;
+   left: 35%;
+   bottom: 25%;
+   display: none;
+}
+form p.msg-error{
+   margin: 10px 0 0 30px;
+   font-size: 1.4rem;
+   color: var(--soft-red);
+   display: none;
+}
