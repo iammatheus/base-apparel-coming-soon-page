@@ -11,7 +11,7 @@
       - O campo de entrada está vazio.
       - O endereço de e-mail não está formatado corretamente.
   
-  - <a href="https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0">Visualizar Desafio<a/>
+    - <a href="https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0">Visualizar Desafio<a/>
 
 #### Desenvolvido em:
   - HTML
