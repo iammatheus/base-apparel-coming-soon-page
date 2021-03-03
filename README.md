@@ -13,11 +13,11 @@
   
     - <a href="https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0">Visualizar Desafio<a/>
 
-#### Desenvolvido em:
+### Desenvolvido em:
   - HTML
   - CSS
   - Javascript
 
-#### Layout:
+### Layout:
   - 100% responsivo.
   - <a href="https://iammatheus.github.io/base-apparel-coming-soon-page">Visualizar<a/>
