@@ -1,6 +1,6 @@
 # Base Apparel Coming Soon | Frontend Mentor Challenge
 
-#### O Desafio:
+### O Desafio:
   - Seu desafio é construir esta página Coming Soon e fazê-la parecer o mais próximo possível do design.
     Você pode usar as ferramentas que desejar para ajudá-lo a completar o desafio. 
     Portanto, se você tem algo que gostaria de praticar, sinta-se à vontade para experimentar.
